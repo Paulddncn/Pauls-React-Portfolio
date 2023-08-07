@@ -37,11 +37,12 @@ function Portfolio() {
               </td>
               <td>
                 <p>
-                  <a href="https://pauls-task-manager.herokuapp.com/" target="_blank" rel="noopener noreferrer">Task Manager</a>
+                  {/*  */}
+                  <a href="https://paulddncn.github.io/Travel-Forecast/" target="_blank" rel="noopener noreferrer">Travel Forecast</a>
                 </p>
                 <img className="portfolio" src={noteTaker} alt="note taker"></img>
                 <p>
-                  <a href="https://github.com/Paulddncn/pauls-task-manager" target="_blank" rel="noopener noreferrer">Task Manager GitHub</a>
+                  <a href="https://github.com/Paulddncn/Travel-Forecast" target="_blank" rel="noopener noreferrer">Travel Forecast GitHub</a>
                 </p>
               </td>
             </tr>

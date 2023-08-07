@@ -6,12 +6,12 @@ function NavTabs({ currentPage, handlePageChange }) {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
+          href="#home"
+          onClick={() => handlePageChange('Home')}
 
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
-          About
+          Home
         </a>
       </li>
       <li className="nav-item">
@@ -26,13 +26,13 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
+          href="#about"
+          onClick={() => handlePageChange('About')}
           //  TODO: Add a comment explaining what this logic is doing
 
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-          Contact
+          About
         </a>
       </li>
       

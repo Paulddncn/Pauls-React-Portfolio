@@ -12,7 +12,7 @@ body {
 
 h1 {
   margin: 0 auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Merriweather', serif  ;
   font-size: 5.625rem;
   color: #66BFBF;
   line-height: 2;
@@ -40,7 +40,7 @@ hr {
 }
 
 a {
-  color: #11999E;
+  color: white;
   text-decoration: none;
 }
 
@@ -83,6 +83,7 @@ p {
   display: inline;
   color: #40514E;
   margin: 10px;
+  
   
 
 }
@@ -194,7 +195,21 @@ max-height: 100px;
 
 }
 #nav {
-  align-content: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px 0 50px;
+  margin: 0 0 0 0;
+  background-color: #EAF6F6;
+  color: #40514E;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  border-bottom: 1px solid #40514E;
+  border-top: 1px solid #40514E;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 @media screen and  (max-width: 500px) {
   article { 

@@ -2,9 +2,9 @@
 
 function Header () {
     return (
-        <header class="top-container">
+        <header className="top-container">
           
-        <h1> I'm Paul</h1>
+        <h1>I'm Paul</h1>
       </header>
     )
 }

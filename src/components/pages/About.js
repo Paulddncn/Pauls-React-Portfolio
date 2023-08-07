@@ -1,55 +1,36 @@
 // import logo from './logo.svg';
 import '../../App.css';
-import profilePic from '../images/Profile.jpg';
+import React, { useState } from 'react';
 
-function About() {
+const About = () => {
+
+function handleDownload() {
+  const content = "//Assets/Resume.pdf";
+  const blob = new Blob([content], { type: 'text/plain' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'Resume.pdf';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+
   return (
     <>
-      <div id="About">
-        <img className="profile-pic" src={profilePic} alt="Paul Duncan" />
-        <h2>Hello.</h2>
-        <p className="intro">Experienced project manager. Aspiring web developer. Humble human.</p>
-      </div>
-      <hr />
-      <div id="skills">
-        <h2>My Skills.</h2>
-        <div className="skill-row">
-          <h3>Web Development Skills</h3>
-          <ul id="ul" style={{ listStyle: 'none'}}>
-            <li className="list">
-              HTML5
-            </li>
-            <li className="list">
-              CSS - bootstrap
-            </li>
-            <li className="list">
-              Javascript
-            </li>
-            <li className="list">
-              Node JS
-            </li>
-            <li className="list">
-              Express
-            </li>
-            <li className="list">
-              MYSQL
-            </li>
-            <li className="list">
-              Mongodb
-            </li>
-            <li className="list">
-              React
-            </li>
-          </ul>
+          <div className="skill-row">
+          <h3>My Story</h3>
+          <p>
+I embarked on my software development journey in early 2022, starting with YouTube tutorials and crafting engaging applications to refine my frontend design abilities. As the year drew to a close, I elevated my capabilities by enrolling in the University of Denver's Full Stack Program. This experience marked a transformative phase, enabling me to amplify my frontend prowess and cultivate backend expertise.
+
+Throughout the program, I delved into over 20 distinct projects, both collaborative team efforts and individual undertakings. My transition into tech follows a diverse background – I formerly served as a construction project manager. In that role, I oversaw entire project lifecycles, navigated unforeseen challenges with innovative solutions, and contributed to business development through collaborative sales efforts.
+
+My journey in software development is poised for further elevation. If you're interested in collaboration, please don't hesitate to reach out.</p>
         </div>
-        <div className="skill-row">
-          <h3>Previous Experience</h3>
-          <p>In the previous chapter of my career, I worked as a project manager in the commercial door industry. The following skills I have acquired through my time in construction are working with Microsoft and Excel. I also worked with sales and have experience with full life cycle projects.</p>
-        </div>
-      </div>
+      <button  onClick={handleDownload}>Download Resume</button>
     </>
   );
-}
+};
 
 export default About;
 

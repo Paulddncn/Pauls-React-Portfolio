@@ -1,10 +1,10 @@
 function Footer () {
     return (
-  <div class="bottom-container">
-  <a class="footer-link" href="#">555-397-9943</a>
-  <a class="footer-link" href="paulddncn@gmail.com">Email</a>
-  <a class="footer-link" href="https://github.com/Paulddncn">Github</a>
-  <p class="copyright">© 2022 Paul Duncan .</p>
+  <div className="bottom-container">
+  <a className="footer-link" href="#">720-397-9942</a>
+  <a className="footer-link" href="paulddncn@gmail.com">Email</a>
+  <a className="footer-link" href="https://github.com/Paulddncn">Github</a>
+  <a className="footer-link" href="https://www.linkedin.com/in/paul-duncan-1b0a3b1b2/">LinkedIn</a>
 </div>
     )
 }
