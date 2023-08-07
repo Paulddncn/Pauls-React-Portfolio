@@ -40,8 +40,8 @@ hr {
 }
 
 a {
-  color: white;
   text-decoration: none;
+  color: #11999e;
 }
 
 td {
@@ -67,7 +67,7 @@ div article{
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: grey
 }
 
 p {
@@ -80,7 +80,8 @@ p {
 
 }
 .nav-item{
-  display: inline;
+  
+  display: inline-flex;
   color: #40514E;
   margin: 10px;
   
@@ -135,6 +136,7 @@ p {
 
 .footer-link {
   padding: 0 25px 0 25px;
+  color: white;
 }
 
 .copyright {
