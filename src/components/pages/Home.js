@@ -13,9 +13,11 @@ function Home() {
       <hr />
       <div id="skills">
         <h2>My Skills.</h2>
-        <div className="skill-row">
-          <h3>Web Development Skills</h3>
-          <p> HTML5, CSS, Javascript, Node.js, Express.js, MYSQL, MongodB, and React.</p>
+        <div>
+          <h3>Technical Skills</h3>
+          <p> HTML, CSS, Javascript, Node.js, Express.js, MySQL, NoSQL, and React.</p>
+          <h3>Professional Skills</h3>
+          <p>Development, Debugging, Agile, Project Management, Problem Solving, Sales, Leadership.</p>
       
         </div>
       </div>

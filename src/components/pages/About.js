@@ -27,7 +27,7 @@ Throughout the program, I delved into over 20 distinct projects, both collaborat
 
 My journey in software development is poised for further elevation. If you're interested in collaboration, please don't hesitate to reach out.</p>
         </div>
-      <button  onClick={handleDownload}>Download Resume</button>
+      <button className='btn' onClick={handleDownload}>Download Resume</button>
     </>
   );
 };

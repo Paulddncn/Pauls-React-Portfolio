@@ -3,6 +3,7 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
   color: #40514E;
+  flex-wrap: auto;
 }
 
 #band-pic {
@@ -41,11 +42,24 @@ hr {
 
 a {
   text-decoration: none;
+  line-height: 0%;
   color: #11999e;
 }
 
+table {
+  width: 90%;
+
+}
+
+
+
 td {
-  padding: 20px;
+  text-align: center;
+  border: white 10px solid;
+  border-radius: 10%;
+  background-color: #EAF6F6;
+  margin: 100px;
+
 }
 
 button {
@@ -57,7 +71,8 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 10px;
+  margin: 50px auto auto auto;
+  
 }
 
 div article{
@@ -73,6 +88,10 @@ a:hover {
 p {
   line-height: 2;
 }
+
+table {
+  flex-wrap: wrap;
+}x
 
 .contact {
   padding: 10px;
@@ -113,8 +132,11 @@ p {
 }
 
 .skill-row {
+  background-color: #EAF6F6;
+  padding: 10%;
+  border-radius: 10%;
   width: 50%;
-  margin: auto;
+  margin: auto auto auto auto;
   text-align:start;
 }
 
@@ -129,6 +151,7 @@ p {
 }
 
 .bottom-container {
+  margin-top: 100px;
   background-color: #66BFBF;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -187,9 +210,13 @@ p {
   margin-bottom: 40px;
 }
 .portfolio{
-max-width: 130px;
-max-height: 100px;
+  height: 90%;
+  width: 60%;
+  border: #40514E 1px solid;
+border-radius: 5%;
+
 }
+
 
 
 #links {
